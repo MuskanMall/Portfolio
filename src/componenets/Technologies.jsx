@@ -59,7 +59,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <SiFlask className="text-5xl " />
+          <SiFlask className="text-5xl text-slate-900" />
         </motion.div>
         <motion.div
           variants={iconVariant(2.5)}
