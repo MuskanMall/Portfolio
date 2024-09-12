@@ -129,7 +129,7 @@ export const EDUCATION = [
 ];
 
 export const CONTACT = {
-  address: "2525 Old Farm Road, Houston Texas",
+  address: "9514, Highland Park Dr, Roseville California",
   phoneNo: "+1 585 710 8365 ",
   email: "muskanmall2202@gmail.com",
 };
