@@ -12,10 +12,7 @@ export const EXPERIENCES = [
     year: "March 2024 - Present",
     role: "Software Developer",
     company: "Zeus Solutions INC ",
-    description: `• Developed a React Employee Portal with a Node.js and Express backend, utilizing Azure SQL Databases with Sequelize for
-advanced data management. Optimized database queries and implemented lazy loading, resulting in a 20% improvement in
-loading speed and enhanced user experience through efficient data retrieval and real-time updates.
-• Developed a React dashboard with effects, page object model, Material UI, and Recharts, integrating real-time data on
+    description: `• Developed a React dashboard with effects, page object model, Material UI, and Recharts, integrating real-time data on
 renewable energy and carbon credits. Enhanced UI and API efficiency, reducing data loading times by 20%.`,
     technologies: [
       "React.js",
@@ -133,3 +130,7 @@ export const CONTACT = {
   phoneNo: "+1 585 710 8365 ",
   email: "muskanmall2202@gmail.com",
 };
+
+// • Developed a React Employee Portal with a Node.js and Express backend, utilizing Azure SQL Databases with Sequelize for
+//advanced data management. Optimized database queries and implemented lazy loading, resulting in a 20% improvement in
+// loading speed and enhanced user experience through efficient data retrieval and real-time updates.
