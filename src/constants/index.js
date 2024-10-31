@@ -104,8 +104,17 @@ export const PROJECTS = [
     title: "Lane detection for automated vehicles",
     image: project4,
     description:
-      "Implemented Hough transform and canny edge detection algorithms in C++ to detect lanes on the road with an accuracy rate of 95%.",
+      "Developed and tested a lane detection algorithm using computer vision techniques such as color threshold, edge detection, and Hough transform, resulting in an 80% accuracy rate in identifying lane lines from dash cam videos. Enhanced implementation using Homography transformation to convert the input to a bird’s eye point of view, leading to more accurate lane detection results and increasing overall accuracy to 95%",
     technologies: ["C++", "OpenCV", "Computer Vision"],
+  },
+  {
+    title: "Soccer event detection",
+    image: project2,
+    description:
+      "Developed and tested a lane detection algorithm using computer vision techniques such as color threshold, edge detection, and Hough transform, resulting in an 80% accuracy rate in identifying lane lines from dash cam videos. Enhanced implementation using Homography transformation to convert the input to a bird’s eye point of view, leading to more accurate lane detection results and increasing overall accuracy to 95%",
+    technologies: [
+      "Python, TensorFlow, Transformers, Parallel GPU Training, AWS, YOLO, Data Labelling Annotation",
+    ],
   },
 ];
 
