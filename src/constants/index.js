@@ -1,28 +1,36 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/mood.jpg";
+import project2 from "../assets/projects/blog.png";
+import project3 from "../assets/projects/nyc.jpg";
+import project4 from "../assets/projects/lane.jpg";
 
-export const HERO_CONTENT = `Accomplished Software Developer with a Master’s in Computer Science and recipient of a prestigious graduate academic scholarship. Nearly 3 years of industry expertise in React, .NET, Python, and JavaScript, managing projects for diverse clients with budgets exceeding $1 million. Eager to drive innovation within collaborative development teams.`;
-
+export const HERO_CONTENT = `I’m a full-stack software developer with over 3 years of experience in building, designing, and deploying versatile and reliable software solutions. I’m proficient in programming languages such as JavaScript, Python, C#, and C++, with expertise in backend technologies including ExpressJS, Axios, Flask, and ASP.NET. My skills encompass designing and implementing secure and efficient API architectures (HTTP/RESTful) for seamless data exchange. Experienced in managing SQL and non-relational databases (e.g., SQL Server, PostgreSQL, MySQL, MongoDB), I excel in crafting backend data management layers with integrated search capabilities for efficient data manipulation. On the frontend, I leverage tools like React, React Query, Next.js, TypeScript, Redux, Tailwind, HTML5, CSS3, Jinja2, and Material-UI to build dynamic and responsive applications. I also utilize Git for streamlined workflows and robust version control.`;
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
     year: "March 2024 - Present",
     role: "Software Developer",
-    company: "Zeus Solutions INC ",
-    description: `• Developed a React dashboard with effects, page object model, Material UI, and Recharts, integrating real-time data on
-renewable energy and carbon credits. Enhanced UI and API efficiency, reducing data loading times by 20%.`,
+    company: "Zeus Solutions INC",
+    description: `• Well Site Asset Management System: Created a scalable Well Site Asset System with React, leveraging React Query hooks (useQuery, useMutation, useInfiniteQuery) for efficient real-time stock tracking, order updates, and pagination.
+• Engineered a data layer with Express.js, MongoDB, and Microsoft SQL Server, building 31 APIs to handle data from files, SQL databases, and MongoDB, enabling seamless retrieval, storage, and advanced data manipulation with search functionality.
+    
+• Field Operations Management System: Constructed a Field Operations Management Tool with Next.js, Material UI, and Tailwind CSS, using hooks like useContext, useReducer, and useMemo to create 22 reusable components for a responsive interface.
+• Designed a secure backend with Express.js and PostgreSQL, enhancing data interactions through React Query for faster retrieval and reducing API calls by 10%.
+    
+• Employee Portal Development: Created an Employee Portal in React, optimizing page load speeds by 10% with lazy loading, and employed Material UI and AG Grid for advanced component styling and data display.
+• Designed a cloud-hosted architecture in .NET with Entity Framework, deploying 30 APIs and integrating Azure Databases with SCD4 history tables and custom triggers to ensure data integrity.`,
     technologies: [
       "React.js",
+      "Next.js",
+      "Material UI",
+      "Tailwind CSS",
+      "React Query",
+      "Express.js",
+      "MongoDB",
+      "Microsoft SQL Server",
+      ".NET",
+      "Entity Framework",
       "Azure",
-      "mongoDB",
-      "Javascript",
-      "Node.js",
-      "Express",
-      "HTML",
-      "CSS",
     ],
   },
   {
@@ -35,14 +43,23 @@ renewable energy and carbon credits. Enhanced UI and API efficiency, reducing da
   },
   {
     year: "January 2018 - August 2020",
-    role: "Analyst & advisory intern",
-    company: "Deloitte ",
-    description: `• Addressed and rectified critical design gaps in legacy and microservices framework for clients, leading to a notable 30% reduction
-    in the customer support team tickets and incidents, improving overall system stability and performance.
-    • Implemented Agile development methodologies to streamline the design and deployment process of the BI dashboard, reducing
-    time-to-market by 25% and ensuring timely delivery of valuable insights to clients.`,
-    technologies: ["NodeJS", "React", "Three.js", "Postgres", "Linux"],
+    role: "Analyst & Advisory Intern",
+    company: "Deloitte",
+    description: `• Agile BI Dashboard Development: Developed a BI dashboard in React, utilizing D3.js and Chart.js for visualization, achieving 30% component reusability and implementing device-responsive design with Tailwind CSS for adaptable screen displays within an Agile environment.
+  • Website Performance Enhancement: Leveraged Next.js for server-side rendering and pre-rendering pages to optimize website performance, improving loading times by 20% on both desktop and mobile devices.
+  • Efficient Data Fetching and API Integration: Orchestrated data fetching with Fetch/Axios and RESTful APIs for asynchronous communication, boosting data retrieval efficiency by 25% and enabling smooth, real-time updates throughout the application.`,
+    technologies: [
+      "React",
+      "D3.js",
+      "Chart.js",
+      "Tailwind CSS",
+      "Next.js",
+      "Fetch",
+      "Axios",
+      "RESTful APIs",
+    ],
   },
+
   {
     year: "May 2016 - Jun 2016 ",
     role: "UI/UX Developer",
@@ -107,15 +124,6 @@ export const PROJECTS = [
       "Developed and tested a lane detection algorithm using computer vision techniques such as color threshold, edge detection, and Hough transform, resulting in an 80% accuracy rate in identifying lane lines from dash cam videos. Enhanced implementation using Homography transformation to convert the input to a bird’s eye point of view, leading to more accurate lane detection results and increasing overall accuracy to 95%",
     technologies: ["C++", "OpenCV", "Computer Vision"],
   },
-  {
-    title: "Soccer event detection",
-    image: project2,
-    description:
-      "Developed and tested a lane detection algorithm using computer vision techniques such as color threshold, edge detection, and Hough transform, resulting in an 80% accuracy rate in identifying lane lines from dash cam videos. Enhanced implementation using Homography transformation to convert the input to a bird’s eye point of view, leading to more accurate lane detection results and increasing overall accuracy to 95%",
-    technologies: [
-      "Python, TensorFlow, Transformers, Parallel GPU Training, AWS, YOLO, Data Labelling Annotation",
-    ],
-  },
 ];
 
 export const EDUCATION = [
@@ -137,7 +145,7 @@ export const EDUCATION = [
 export const CONTACT = {
   address: "9514, Highland Park Dr, Roseville California",
   phoneNo: "+1 585 710 8365 ",
-  email: "muskanmall2202@gmail.com",
+  email: "mmall.connect96@gmail.com",
 };
 
 // • Developed a React Employee Portal with a Node.js and Express backend, utilizing Azure SQL Databases with Sequelize for
